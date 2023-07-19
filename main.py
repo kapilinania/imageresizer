@@ -18,4 +18,5 @@ image_resize = (width, height)
 # resize images
 final_output = cv2.resize(imageData, image_resize)
 cv2.imwrite(dest_Data, final_output)
+# wait key is necessary
 cv2.waitKey(0)
